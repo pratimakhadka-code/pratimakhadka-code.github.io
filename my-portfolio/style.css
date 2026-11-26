@@ -24,3 +24,26 @@ nav a:hover {
     margin: 20px auto;
     border: 3px solid #d63384;
 }
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid #f3b6d2;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    color: #d63384;
+}
+
+.project-card a {
+    color: #d63384;
+    font-weight: bold;
+}
